@@ -1,0 +1,126 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock title %}
+
+{% block body %}
+<div class="container-fluid px-0 my-0">
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"></li>
+    <li data-bs-target="#carouselExampleDark" data-bs-slide-to="1"></li>
+    <li data-bs-target="#carouselExampleDark" data-bs-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="4000">
+      <img src="/static/img/1.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>Scoops o’ Joy</h2>
+       <h4> <p>Come and experience what actual ice cream tastes like.</p></h4>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="4000">
+      <img src="/static/img/3.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>Scoops o' Joy</h3>
+       <h5> <p>Taste that you have never tasted before..</p></h5>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/static/img/5.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>Scoops o' Joy</h3>
+        <h5><p>Real ice cream for real ice cream lovers.</p></h5>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleDark" role="button" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleDark" role="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </a>
+</div>
+</div>
+
+<div class="container my-3">
+      
+<h2 id="custom-components" class="text-center my-4">Choose from our range of Ice-Cream</h2>
+<div class="text-center">
+ <h6><p>Satisfy your taste buds with the best varities of icecream.</p></h6>
+ </div>
+  <div class="row">
+      <div class="col-sm-6 col-md-4 col-xl-3 mb-3">
+        <a href="/static/img/t1.jpg">
+          <img class="img-thumbnail mb-3" img src="/static/img/t1.jpg" alt="" width="480" height="300" loading="lazy">
+          <h3 class="h5 mb-1">Rolled Ice Cream: Rs.100</h3>
+        </a>
+        <p class="text-muted">pouring the ice cream mixture, chopping, mixing add-ins (like strawberries and Oreos), and perfectly spiraling the ice cream </p>
+      </div>
+    
+  
+      <div class="col-sm-6 col-md-4 col-xl-3 mb-3">
+        <a href="/static/img/t2.jpg">
+          <img class="img-thumbnail mb-3" img src="/static/img/t2.jpg" alt="" width="480" height="300" loading="lazy">
+          <h3 class="h5 mb-1">Frozen Yogurt: Rs.150</h3>
+        </a>
+        <p class="text-muted">It's based on the model of soft-serve but is lower in fat and offers a tangy taste, thanks to, well, the yogurt. </p>
+      </div>
+    
+  
+      <div class="col-sm-6 col-md-4 col-xl-3 mb-3">
+        <a href="/static/img/t3.jpg">
+          <img class="img-thumbnail mb-3" img src="/static/img/t3.jpg" alt="" width="480" height="300" loading="lazy">
+          <h3 class="h5 mb-1">Soft Serve: Rs.50</h3>
+        </a>
+        <p class="text-muted">It gets its super-smooth texture from air that's introduced as the ingredients are frozen. .</p>
+      </div>
+    
+  
+      <div class="col-sm-6 col-md-4 col-xl-3 mb-3">
+        <a href="/static/img/t9.jpg">
+          <img class="img-thumbnail mb-3" img src="/static/img/t9.jpg" alt="" width="480" height="300" loading="lazy">
+          <h3 class="h5 mb-1">Snow Cream: Rs.200</h3>
+        </a>
+        <p class="text-muted">After freezing a giant cube of milk and water, ice cream makers shave it into insanely thin strips and then top it with boba, fresh fruit, sweetened condensed milk, chocolate, and more. .</p>
+      </div>
+    <div class="col-sm-6 col-md-4 col-xl-3 mb-3">
+        <a href="/static/img/t5.jpg">
+          <img class="img-thumbnail mb-3" img src="/static/img/t5.jpg" alt="" width="480" height="300" loading="lazy">
+          <h3 class="h5 mb-1">Faloodeh Rs.100</h3>
+        </a>
+        <p class="text-muted">Blended with a mixture of rose water, sugar, and lime juice, these rice noodles are a perfect frozen treat. </p>
+      </div>
+      <div class="col-sm-6 col-md-4 col-xl-3 mb-3">
+        <a href="/static/img/t6.jpg">
+          <img class="img-thumbnail mb-3" img src="/static/img/t6.jpg" alt="" width="480" height="300" loading="lazy">
+          <h3 class="h5 mb-1">Kulfi: Rs.50</h3>
+        </a>
+        <p class="text-muted">Doesn,t need any introduction. best Indian traditional icecream.</p>
+      </div>
+      <div class="col-sm-6 col-md-4 col-xl-3 mb-3">
+        <a href="/static/img/t7.jpg">
+          <img class="img-thumbnail mb-3" img src="/static/img/t7.jpg" alt="" width="480" height="300" loading="lazy">
+          <h3 class="h5 mb-1">Cone Ice cream: Rs.100</h3>
+        </a>
+        <p class="text-muted">An ice cream cone, poke or cornet is a dry, cone-shaped pastry, usually made of a wafer similar in texture to a waffle, which enables ice cream to be held in the hand and eaten without a bowl or spoon.</p>
+      </div>
+      <div class="col-sm-6 col-md-4 col-xl-3 mb-3">
+        <a href="/static/img/t8.jpg">
+          <img class="img-thumbnail mb-3" img src="/static/img/t8.jpg" alt="" width="480" height="300" loading="lazy">
+          <h3 class="h5 mb-1">Granita: Rs.250</h3>
+        </a>
+        <p class="text-muted">Born in Sicily, this icy treat is a blend of sugar, water, and various flavorings from fruit, nuts, and herbs — like strawberry, almond, and mint. Its crystalized texture makes it best for eating with a spoon from a cup or bowl. </p>
+      </div>
+    </div>
+
+  </div>
+  <div class="text-center">
+  <h7 style="color:darkgrey; text-decoration: underline; position: absolute;right:18px; top: -12px;" class="text-center my-3">
+  Call to Place an Order :</h7>
+  <h7 style="color:darkgrey; position: absolute;right:12px; top: 10px;" class="text-center my-3">
+  987585753 | 982799223 </h7>
+  </div>
+</div>
+{% endblock body %}

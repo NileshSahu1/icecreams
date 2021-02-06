@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+
+{% block title %}About{% endblock title %}
+
+{% block body %}
+<div class="container-fluids mb-3">
+<img src="/static/img/a3.jpg" class="img-fluid" alt="...">
+</div>
+<div class="mb-5">
+<h1 style=" position: absolute;right:600px; top: 390px;"class="text-center my-2">ABOUT US</h1>
+</div>
+<div>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+ {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 46%;
+  padding: 20px;
+  height: 220px; /* Should be removed. Only for demonstration */
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+
+
+<div class="row">
+  <div class="column" >
+  <h5>  <p>Scoops O' Joy has nearly 5,000 store locations in over 40 countries outside the India.
+You might be surprised where in the world you'll find us. 
+We're one of the world's most recognizable brands of ice cream treats and 
+the world’s largest ice cream speciality chain!</p></h5>
+  </div>
+  <div class="column" >
+   <h5> <p>Scoops O' Joy stores throughout the world dish out global favourites like World Class® Chocolate and 
+Strawberry Cheesecake, but also local favourites, such as Green Tea and Rum Raisin.
+ No matter where you are in the world, you will find unparalleled quality and variety at every shop</p></h5>
+  </div>
+</div>
+ </div>
+ {% endblock body %}
